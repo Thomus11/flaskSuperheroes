@@ -1,9 +1,12 @@
-This project is a Flask-based RESTful API that manages data about heroes, powers, and their relationships. 
+This project is a Flask-based API that manages data about heroes, powers, and their relationships. 
 It allows users to perform CRUD operations on heroes and powers, as well as create associations between them through the HeroPower mode
 
 ├── app.py                  # Main Flask application with routes
+
 ├── models.py               # SQLAlchemy models for Hero, Power, and HeroPower
+
 ├── seeds.py                # Script to seed the database with initial data
+
 └── migrations/             # Database migration files
 
 Endpoint	   Method	       Description
